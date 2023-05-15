@@ -1,4 +1,4 @@
-kSupplementary data for the manuscript:
+Supplementary data for the manuscript:
 Kapli P., Kotari I., Telford M., Goldman N., Yang Z. DNA Sequences Are as Useful as Protein Sequences for Inferring Deep Phylogenies.
 
 Brief explanations of the files:
@@ -7,7 +7,7 @@ Brief explanations of the files:
 
 * In the HOMO folder, the "HOMO-control.txt" is the control file for simulating sequences under the homogeneous model with [indelible](http://abacus.gene.ucl.ac.uk/software/indelible/). All guide trees and model parameters (M0 and M3) are provided in the file.
 
-* In the SH1 model, the "SH1-control.txt" is the control file for simulating sequences under the site-heterogeneous (SH1) model. SH1 assumes site-heterogeneous codon frequencies generated from observed frequencies in coding genes from mammal species. All guide trees and model parameters (M0 and M3) are provided in the file.
+* In the SH1 folder, the "SH1-control.txt" is the control file for simulating sequences under the site-heterogeneous (SH1) model. SH1 assumes site-heterogeneous codon frequencies generated from observed frequencies in coding genes from mammal species. All guide trees and model parameters (M0 and M3) are provided in the file.
 
 * The folder "SH2" contains two Python scripts: "generate_control_M0.py" and "generate_control_M3.py" that create control files for indelible with the SH2 model. In particular, it converts the amino acid frequencies from the mixture models C10-C60 into equivalent codon frequencies, i.e. the frequency of each codon is calculated by the frequency of the amino acid divided by the number of synonymous codons for the amino acid and multiplied by the nucleotide frequency for the nucleotide at the 3rd codon position. It then formats the indelible control file accordingly. All guide trees are available in each of the scripts.
 
