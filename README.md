@@ -23,6 +23,6 @@ Syntax for running the script:
 
 The two sets of frequencies are assigned to different parts of the tree.
 
-* The "metazoa-based" folder contains two scripts: "generate_control_M3_BSH.py" and "generate_control_M3_SH2.py" that generate indelible control files under the BSH and the SH2 models correspondingly and with guide trees matching the metazoa phylogenies A and C of Figure 3 in the manuscript.
+* The "metazoa" folder contains: 1) the DNA alignment for the 22 animal species used in the study, and 2) two scripts: "generate_control_M3_BSH.py" and "generate_control_M3_SH2.py" that generate indelible control files under the BSH and the SH2 models correspondingly and with guide trees matching the metazoa phylogenies A and C of Figure 3 in the manuscript.
 
 For further information regarding these files or the analyses presented in the manuscript, contact me at p.kapli@ucl.ac.uk or k.pashalia@gmail.com.
